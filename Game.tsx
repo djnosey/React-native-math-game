@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function Game() {
-  let target = 10 + Math.floor(40 * Math.random());
+  let target : number = 10 + Math.floor(40 * Math.random());
 
   return (
     <View style={styles.container}>
